@@ -34,7 +34,7 @@ export const Navbar: React.FC = () => {
             name: 'Reservation'
         }
     ]
-    const router = useRouter();
+    // const router = useRouter();
     const path = usePathname();
     console.log(path)
 
