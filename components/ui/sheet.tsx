@@ -72,9 +72,9 @@ const SheetContent = React.forwardRef<
       {...props}
     >
       {children}
-      {/* <SheetPrimitive.Close className="absolute text-3xl right-4 top-6">
+      <SheetPrimitive.Close className="absolute text-3xl right-4 top-6">
         <RxCross2 /> 
-      </SheetPrimitive.Close> */}
+      </SheetPrimitive.Close>
     </SheetPrimitive.Content>
   </SheetPortal>
 ))

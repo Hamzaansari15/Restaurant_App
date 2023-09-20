@@ -6,17 +6,21 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   theme: {
     // container: {
-      // center: true,
-      // padding: "2rem",
-      screens: {
-        'sm': '640px',
-        'md': '1024px',
-        'lg': '1280px',
-      },
+    // center: true,
+    // padding: "2rem",
+    screens: {
+      'sm': '640px',
+      'md': '1024px',
+      'lg': '1280px',
+    },
     extend: {
+      fontFamily: {
+        sans: 'Open Sans',
+        poppins: 'Poppins',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -24,10 +28,10 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: '#F54748',
-        backgroundColor:{
+        backgroundColor: {
           primary: '#F54748'
         },
-        fontFamily:{
+        fontFamily: {
           primary: 'Poppins'
         },
         backgroundImage: {
